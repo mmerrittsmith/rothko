@@ -15,11 +15,7 @@ This project provides R color palettes derived from some of Rothko's most well-k
 Installation
 ------------
 
-``` r
-install.packages("rothko")
-```
-
-**Or the development version**
+Rothko is currently under review at CRAN, and the development version should be used until CRAN release.
 
 ``` r
 devtools::install_github("mmerrittsmith/rothko")

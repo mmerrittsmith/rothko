@@ -27,12 +27,7 @@ Mark Rothko is an 20th-century American painter best known for his later work on
 This project provides R color palettes derived from some of Rothko's most well-known works. It is directly derivative of the ![Wes Anderson Palettes R package](https://github.com/karthik/wesanderson). 
 
 ## Installation
-
-```r
-install.packages("rothko")
-```
-
-__Or the development version__
+Rothko is currently under review at CRAN, and the development version should be used until CRAN release.
 
 ```r
 devtools::install_github("mmerrittsmith/rothko")
