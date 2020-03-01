@@ -9,7 +9,7 @@ rothko_palette(name, n, type = c("discrete", "continuous"))
 \arguments{
 \item{name}{Name of desired palette. Choices are:
 \code{Magenta, Black, Green on Orange}, \code{Untitled 1949},  \code{Number 5},
-\code{Violet, Black, Orange, Yellow on White and Red}, 
+\code{Violet, Black, Orange, Yellow on White and Red},
 \code{Violet, Black, Orange, Yellow on White and Red2},
 \code{White Center}, \code{Blue, Green, and Brown},
 \code{Purple, White, and Red},  \code{Number 10},
@@ -33,15 +33,9 @@ A vector of colours.
 These are a handful of color palettes from Wes Anderson movies.
 }
 \examples{
-wes_palette("Untitled 1949")
-wes_palette("Number 10")
-wes_palette("Purple, White, and Red")
-wes_palette("Purple, White and Red", 3)
-
-# If you need more colours than normally found in a palette, you
-# can use a continuous palette to interpolate between existing
-# colours
-pal <- rothko_palette(21, name = "", type = "continuous")
-image(volcano, col = pal)
+rothko_palette("Untitled 1949")
+rothko_palette("Number 10")
+rothko_palette("Purple, White, and Red")
+rothko_palette("Purple, White and Red", 3)
 }
 \keyword{colors}

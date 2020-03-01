@@ -52,10 +52,10 @@ rothko_palettes <- list(
 #' @export
 #' @keywords colors
 #' @examples
-#' wes_palette("Untitled 1949")
-#' wes_palette("Number 10")
-#' wes_palette("Purple, White, and Red")
-#' wes_palette("Purple, White and Red", 3)
+#' rothko_palette("Untitled 1949")
+#' rothko_palette("Number 10")
+#' rothko_palette("Purple, White, and Red")
+#' rothko_palette("Purple, White and Red", 3)
 rothko_palette <- function(name, n, type=c("discrete", "continuous")) {
   type <- match.arg(type)
   pal <- rothko_palettes[[name]]
