@@ -1,0 +1,16 @@
+Package: rothko
+Title: A Mark Rothko Palette Generator
+Description: Palettes generated from Mark Rothko paintings.
+Date: 2020-03-01
+Version: 0.0.5
+Authors@R: c(person("Merritt", "Smith", role = c("aut", "cre"),
+    email = "matthewmerrittsmith@gmail.com", comment = c(ORCID = "0000-0002-8147-1335")))
+Depends:
+    R (>= 3.0)
+License: MIT + file LICENSE
+LazyData: true
+Suggests:
+    ggplot2
+URL: https://github.com/mmerrittsmith/rothko
+BugReports: https://github.com/mmerrittsmith/rothko/issues
+RoxygenNote: 6.1.1

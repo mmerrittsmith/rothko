@@ -1,0 +1,68 @@
+{
+  "@context": [
+    "https://doi.org/10.5063/schema/codemeta-2.0",
+    "http://schema.org"
+  ],
+  "@type": "SoftwareSourceCode",
+  "identifier": "rothko",
+  "description": "Palettes generated Mark Rothko paintings",
+  "name": "rothko: A Mark Rothko Palette Generator",
+  "codeRepository": "https://github.com/mmerrittsmith/rothko",
+  "issueTracker": "https://github.com/mmerrittsmith/rothko/issues",
+  "datePublished": "2020-03-01",
+  "license": "https://spdx.org/licenses/MIT",
+  "version": "0.0.5",
+  "programmingLanguage": {
+    "@type": "ComputerLanguage",
+    "name": "R",
+    "version": "3.5.2",
+    "url": "https://r-project.org"
+  },
+  "runtimePlatform": "R version 3.5.2 (2018-12-20)",
+  "provider": {
+    "@id": "https://cran.r-project.org",
+    "@type": "Organization",
+    "name": "Central R Archive Network (CRAN)",
+    "url": "https://cran.r-project.org"
+  },
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Merritt",
+      "familyName": "Smith",
+      "email": "matthewmerrittsmith@gmail.com",
+      "@id": "https://orcid.org/0000-0002-8147-1335"
+    }
+  ],
+  "maintainer": {
+    "@type": "Person",
+    "givenName": "Merritt",
+    "familyName": "Smith",
+    "email": "matthewmerrittsmith@gmail.com",
+    "@id": "https://orcid.org/0000-0002-8147-1335"
+  },
+  "softwareSuggestions": [
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "ggplot2",
+      "name": "ggplot2",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Central R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      }
+    }
+  ],
+  "softwareRequirements": [
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "R",
+      "name": "R",
+      "version": "3.0"
+    }
+  ],
+  "contIntegration": "https://travis-ci.org/mmerrittsmith/rothko",
+  "releaseNotes": "https://github.com/mmerrittsmith/rothko/blob/master/NEWS",
+  "readme": "https://github.com/mmerrittsmith/rothko/blob/master/README.md"
+}

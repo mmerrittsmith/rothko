@@ -1,3 +1,8 @@
+#' Complete list of palettes
+#'
+#' Use \code{\link{wes_palette}} to construct palettes of desired length.
+#'
+#' @export
 rothko_palettes <- list(
   "Magenta, Black, Green on Orange" = c("#3D341C", "#D46438", "#6B8D4A", "#A65530", "#FDF5AB"),
   "Untitled 1949" = c("#414030", "#9EA683", "#EAB23B", "#F3C855", "#DABF7B", "#F0D69A"),
@@ -22,6 +27,41 @@ rothko_palettes <- list(
   "Untitled 1969" = c( "#000000", "#3C3029", "#8D847D", "#D8CEC8", "#E7DDD5")
 )
 
+
+#' A Wes Anderson palette generator
+#'
+#' These are a handful of color palettes from Wes Anderson movies.
+#'
+#' @param n Number of colors desired.
+#'   If omitted, uses all colours.
+#' @param name Name of desired palette. Choices are:
+#'   \code{Magenta, Black, Green on Orange}, \code{Untitled 1949},  \code{Number 5},
+#'   \code{Violet, Black, Orange, Yellow on White and Red}, 
+#'   \code{Violet, Black, Orange, Yellow on White and Red2},
+#'   \code{White Center}, \code{Blue, Green, and Brown},
+#'   \code{Purple, White, and Red},  \code{Number 10},
+#'   \code{Rust and Blue} ,\code{Untitled 1953}, \code{Ochre and Red on Red},
+#'   \code{Red, Black, White on Yellow}, \code{Green and Tangerine on Red},
+#'   \code{Light Red Over Black}, \code{Light Cloud, Dark Cloud}, \code{Number 14},
+#'   \code{Orange, Red, Yellow}, \code{Number 16}, \code{Blue and Grey},
+#'   \code{Untitled 1969}
+#' @param type Either "continuous" or "discrete". Use continuous if you want
+#'   to automatically interpolate between colours.
+#'   @importFrom graphics rgb rect par image text
+#' @return A vector of colours.
+#' @export
+#' @keywords colors
+#' @examples
+#' wes_palette("Untitled 1949")
+#' wes_palette("Number 10")
+#' wes_palette("Purple, White, and Red")
+#' wes_palette("Purple, White and Red", 3)
+#'
+#' # If you need more colours than normally found in a palette, you
+#' # can use a continuous palette to interpolate between existing
+#' # colours
+#' pal <- rothko_palette(21, name = "", type = "continuous")
+#' image(volcano, col = pal)
 rothko_palette <- function(name, n, type=c("discrete", "continuous")) {
   type <- match.arg(type)
   pal <- rothko_palettes[[name]]
@@ -44,6 +84,10 @@ rothko_palette <- function(name, n, type=c("discrete", "continuous")) {
   structure(out, class="palette", name=name)
 }
 
+
+#' @export
+#' @importFrom graphics rect par image text
+#' @importFrom grDevices rgb
 print.palette <- function(x, ...) {
   n <- length(x)
   old <- par(mar = c(0.5, 0.5, 0.5, 0.5))
@@ -54,7 +98,4 @@ print.palette <- function(x, ...) {
   
   rect(0, 0.9, n + 1, 1.1, col = rgb(1, 1, 1, 0.8), border = NA)
   text((n + 1) / 2, 1, labels = attr(x, "name"), cex = 1, family = "serif")
-
-  
-"heatmap"
 }
