@@ -1,6 +1,6 @@
 #' Complete list of palettes
 #'
-#' Use \code{\link{wes_palette}} to construct palettes of desired length.
+#' Use \code{\link{rothko_palette}} to construct palettes of desired length.
 #'
 #' @export
 rothko_palettes <- list(
@@ -28,9 +28,9 @@ rothko_palettes <- list(
 )
 
 
-#' A Wes Anderson palette generator
+#' A Mark Rothko palette generator
 #'
-#' These are a handful of color palettes from Wes Anderson movies.
+#' These are a handful of color palettes from Mark Rothko paintings.
 #'
 #' @param n Number of colors desired.
 #'   If omitted, uses all colours.
@@ -55,7 +55,7 @@ rothko_palettes <- list(
 #' rothko_palette("Untitled 1949")
 #' rothko_palette("Number 10")
 #' rothko_palette("Purple, White, and Red")
-#' rothko_palette("Purple, White and Red", 3)
+#' rothko_palette("Purple, White, and Red", 3)
 rothko_palette <- function(name, n, type=c("discrete", "continuous")) {
   type <- match.arg(type)
   pal <- rothko_palettes[[name]]

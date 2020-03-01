@@ -2,7 +2,7 @@
 % Please edit documentation in R/colors.R
 \name{rothko_palette}
 \alias{rothko_palette}
-\title{A Wes Anderson palette generator}
+\title{A Mark Rothko palette generator}
 \usage{
 rothko_palette(name, n, type = c("discrete", "continuous"))
 }
@@ -30,12 +30,12 @@ to automatically interpolate between colours.
 A vector of colours.
 }
 \description{
-These are a handful of color palettes from Wes Anderson movies.
+These are a handful of color palettes from Mark Rothko paintings.
 }
 \examples{
 rothko_palette("Untitled 1949")
 rothko_palette("Number 10")
 rothko_palette("Purple, White, and Red")
-rothko_palette("Purple, White and Red", 3)
+rothko_palette("Purple, White, and Red", 3)
 }
 \keyword{colors}

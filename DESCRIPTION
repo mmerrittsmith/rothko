@@ -2,7 +2,7 @@ Package: rothko
 Title: A Mark Rothko Palette Generator
 Description: Palettes generated from Mark Rothko paintings.
 Date: 2020-03-01
-Version: 0.0.5
+Version: 0.0.8
 Authors@R: c(person("Merritt", "Smith", role = c("aut", "cre"),
     email = "matthewmerrittsmith@gmail.com", comment = c(ORCID = "0000-0002-8147-1335")))
 Depends:

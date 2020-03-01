@@ -11,7 +11,7 @@
   "issueTracker": "https://github.com/mmerrittsmith/rothko/issues",
   "datePublished": "2020-03-01",
   "license": "https://spdx.org/licenses/MIT",
-  "version": "0.0.5",
+  "version": "0.0.8",
   "programmingLanguage": {
     "@type": "ComputerLanguage",
     "name": "R",

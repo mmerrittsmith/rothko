@@ -7,13 +7,13 @@
     "folds" : "",
     "hash" : "0",
     "id" : "BFEF584E",
-    "lastKnownWriteTime" : 1583104413,
-    "last_content_update" : 1583104413441,
+    "lastKnownWriteTime" : 1583105015,
+    "last_content_update" : 1583105015600,
     "path" : "~/rothko/R/colors.R",
     "project_path" : "R/colors.R",
     "properties" : {
-        "cursorPosition" : "57,9",
-        "scrollLine" : "51"
+        "cursorPosition" : "32,67",
+        "scrollLine" : "28"
     },
     "relative_order" : 3,
     "source_on_save" : false,

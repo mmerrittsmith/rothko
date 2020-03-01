@@ -9,6 +9,6 @@
 rothko_palettes
 }
 \description{
-Use \code{\link{wes_palette}} to construct palettes of desired length.
+Use \code{\link{rothko_palette}} to construct palettes of desired length.
 }
 \keyword{datasets}
