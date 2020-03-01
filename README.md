@@ -4,7 +4,9 @@ Rothko Palettes
 
 [![Build Status](https://travis-ci.org/mmerrittsmith/rothko.png)](https://travis-ci.org/mmerrittsmith/rothko)
 
-![](vboyorar.jpg) &gt; Violet, Black, Orange, Yellow on White and Red, 1949
+![](vboyorar.jpg)
+
+> Violet, Black, Orange, Yellow on White and Red, 1949
 
 Mark Rothko is an 20th-century American painter best known for his later work on "multi-forms" or "colour fields". These paintings consist of large blocks of colors that, despite being abstract forms, convey a wide array of human emotion. Much of this is achieved through composition, but color plays a large part as well.
 
@@ -62,7 +64,7 @@ Palettes
 rothko_palette("Magenta, Black, Green on Orange")
 ```
 
-![](figure/mbgoo-1.png)
+![](figure/Magenta,%20Black,%20Green%20on%20Orange-1.png)
 
 ### Untitled 1949
 
@@ -70,7 +72,7 @@ rothko_palette("Magenta, Black, Green on Orange")
 rothko_palette("Untitled 1949")
 ```
 
-![](figure/untitled1949-1.png)
+![](figure/Untitled%201949-1.png)
 
 ### Number 5
 
@@ -78,7 +80,7 @@ rothko_palette("Untitled 1949")
 rothko_palette("Number 5")
 ```
 
-![](figure/number5-1.png)
+![](figure/Number%205-1.png)
 
 ### Violet, Black, Orange, Yellow on White and Red
 
@@ -86,13 +88,13 @@ rothko_palette("Number 5")
 rothko_palette("Violet, Black, Orange, Yellow on White and Red")
 ```
 
-![](figure/vboyowar-1.png)
+![](figure/Violet,%20Black,%20Orange,%20Yellow%20on%20White%20and%20Red-1.png)
 
 ``` r
 rothko_palette("Violet, Black, Orange, Yellow on White and Red2")
 ```
 
-![](figure/vboyowar-2.png)
+![](figure/Violet,%20Black,%20Orange,%20Yellow%20on%20White%20and%20Red-2.png)
 
 ### White Center
 
@@ -100,7 +102,7 @@ rothko_palette("Violet, Black, Orange, Yellow on White and Red2")
 rothko_palette("White Center")
 ```
 
-![](figure/whitecenter-1.png)
+![](figure/White%20Center-1.png)
 
 ### Blue, Green, and Brown
 
@@ -108,7 +110,7 @@ rothko_palette("White Center")
 rothko_palette("Blue, Green, and Brown")
 ```
 
-![](figure/bluegreenbrown-1.png)
+![](figure/Blue,%20Green,%20Brown-1.png)
 
 ### Purple, White, and Red
 
@@ -116,7 +118,7 @@ rothko_palette("Blue, Green, and Brown")
 rothko_palette("Purple, White, and Red")
 ```
 
-![](figure/purplewhitered-1.png)
+![](figure/Purple,%20White,%20and%20Red-1.png)
 
 ### Number 10
 
@@ -124,7 +126,7 @@ rothko_palette("Purple, White, and Red")
 rothko_palette("Number 10")
 ```
 
-![](figure/number10-1.png)
+![](figure/Number%2010-1.png)
 
 ### Rust and Blue
 
@@ -132,7 +134,7 @@ rothko_palette("Number 10")
 rothko_palette("Rust and Blue")
 ```
 
-![](figure/rustandblue-1.png)
+![](figure/Rust%20and%20Blue-1.png)
 
 ### Untitled 1953
 
@@ -140,7 +142,7 @@ rothko_palette("Rust and Blue")
 rothko_palette("Untitled 1953")
 ```
 
-![](figure/untitled1953-1.png)
+![](figure/Untitled%201953-1.png)
 
 ### Ochre and Red on Red
 
@@ -148,7 +150,7 @@ rothko_palette("Untitled 1953")
 rothko_palette("Ochre and Red on Red")
 ```
 
-![](figure/ochreandredonred-1.png)
+![](figure/Ochre%20and%20Red%20on%20Red-1.png)
 
 ### Red, Black, White on Yellow
 
@@ -156,7 +158,7 @@ rothko_palette("Ochre and Red on Red")
 rothko_palette("Red, Black, White on Yellow")
 ```
 
-![](figure/redblackwhiteonyellow-1.png)
+![](figure/Red,%20Black,%20White%20on%20Yellow-1.png)
 
 ### Green and Tangerine on Red
 
@@ -164,7 +166,7 @@ rothko_palette("Red, Black, White on Yellow")
 rothko_palette("Green and Tangerine on Red")
 ```
 
-![](figure/gtor-1.png)
+![](figure/Green%20and%20Tangerine%20on%20Red-1.png)
 
 ### Light Red Over Black
 
@@ -172,7 +174,7 @@ rothko_palette("Green and Tangerine on Red")
 rothko_palette("Light Red Over Black")
 ```
 
-![](figure/lrob-1.png)
+![](figure/Light%20Red%20Over%20Black-1.png)
 
 ### Light Cloud, Dark Cloud
 
@@ -180,7 +182,7 @@ rothko_palette("Light Red Over Black")
 rothko_palette("Light Cloud, Dark Cloud")
 ```
 
-![](figure/lcdc-1.png)
+![](figure/Light%20Cloud,%20Dark%20Cloud-1.png)
 
 ### Number 14
 
@@ -188,7 +190,7 @@ rothko_palette("Light Cloud, Dark Cloud")
 rothko_palette("Number 14")
 ```
 
-![](figure/number14-1.png)
+![](figure/Number%2014-1.png)
 
 ### Orange, Red, Yellow
 
@@ -196,7 +198,7 @@ rothko_palette("Number 14")
 rothko_palette("Orange, Red, Yellow")
 ```
 
-![](figure/ory-1.png)
+![](figure/Orange,%20Red,%20Yellow-1.png)
 
 ### Number 16
 
@@ -204,7 +206,7 @@ rothko_palette("Orange, Red, Yellow")
 rothko_palette("Number 16")
 ```
 
-![](figure/number16-1.png)
+![](figure/Number%2016-1.png)
 
 ### Blue and Grey
 
@@ -212,7 +214,7 @@ rothko_palette("Number 16")
 rothko_palette("Blue and Grey")
 ```
 
-![](figure/blueandgrey-1.png)
+![](figure/Blue%20and%20Grey-1.png)
 
 ### Untitled 1969
 
@@ -220,4 +222,4 @@ rothko_palette("Blue and Grey")
 rothko_palette("Untitled 1969")
 ```
 
-![](figure/untitled1969-1.png)
+![](figure/Untitled%201969-1.png)

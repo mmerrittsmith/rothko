@@ -7,13 +7,13 @@
     "folds" : "",
     "hash" : "0",
     "id" : "E48F6393",
-    "lastKnownWriteTime" : 1583098708,
-    "last_content_update" : 1583098708,
+    "lastKnownWriteTime" : 1583102962,
+    "last_content_update" : 1583102962362,
     "path" : "~/rothko/README.Rmd",
     "project_path" : "README.Rmd",
     "properties" : {
-        "cursorPosition" : "7,0",
-        "scrollLine" : "2"
+        "cursorPosition" : "147,16",
+        "scrollLine" : "124"
     },
     "relative_order" : 2,
     "source_on_save" : false,

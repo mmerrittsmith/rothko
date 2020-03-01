@@ -19,6 +19,7 @@ knitr::opts_chunk$set(
 [![Build Status](https://travis-ci.org/mmerrittsmith/rothko.png)](https://travis-ci.org/mmerrittsmith/rothko)
 
 ![](vboyorar.jpg)
+
 > Violet, Black, Orange, Yellow on White and Red, 1949
 
 Mark Rothko is an 20th-century American painter best known for his later work on "multi-forms" or "colour fields". These paintings consist of large blocks of colors that, despite being abstract forms, convey a wide array of human emotion. Much of this is achieved through composition, but color plays a large part as well. 
@@ -48,102 +49,102 @@ names(rothko_palettes)
 
 ### Magenta, Black, Green on Orange
 
-```{r, mbgoo}
+```{r, Magenta, Black, Green on Orange}
 rothko_palette("Magenta, Black, Green on Orange")
 ```
 
 ### Untitled 1949
-```{r, untitled1949}
+```{r, Untitled 1949}
 rothko_palette("Untitled 1949")
 ```
 
 ### Number 5
-```{r, number5}
+```{r, Number 5}
 rothko_palette("Number 5")
 ```
 
 ### Violet, Black, Orange, Yellow on White and Red
-```{r, vboyowar}
+```{r, Violet, Black, Orange, Yellow on White and Red}
 rothko_palette("Violet, Black, Orange, Yellow on White and Red")
 rothko_palette("Violet, Black, Orange, Yellow on White and Red2")
 ```
 
 ### White Center
-```{r, whitecenter}
+```{r, White Center}
 rothko_palette("White Center")
 ```
 
 ### Blue, Green, and Brown
-```{r, bluegreenbrown}
+```{r, Blue, Green, Brown}
 rothko_palette("Blue, Green, and Brown")
 ```
 
 ### Purple, White, and Red
-```{r, purplewhitered}
+```{r, Purple, White, and Red}
 rothko_palette("Purple, White, and Red")
 ```
 
 ### Number 10
-```{r, number10}
+```{r, Number 10}
 rothko_palette("Number 10")
 ```
 
 ### Rust and Blue
-```{r, rustandblue}
+```{r, Rust and Blue}
 rothko_palette("Rust and Blue")
 ```
 
 ### Untitled 1953
-```{r, untitled1953}
+```{r, Untitled 1953}
 rothko_palette("Untitled 1953")
 ```
 
 ### Ochre and Red on Red
-```{r, ochreandredonred}
+```{r, Ochre and Red on Red}
 rothko_palette("Ochre and Red on Red")
 ```
 
 ### Red, Black, White on Yellow
-```{r, redblackwhiteonyellow}
+```{r, Red, Black, White on Yellow}
 rothko_palette("Red, Black, White on Yellow")
 ```
 
 ### Green and Tangerine on Red
-```{r, gtor}
+```{r, Green and Tangerine on Red}
 rothko_palette("Green and Tangerine on Red")
 ```
 
 ### Light Red Over Black
-```{r, lrob}
+```{r, Light Red Over Black}
 rothko_palette("Light Red Over Black")
 ```
 
 ### Light Cloud, Dark Cloud
-```{r, lcdc}
+```{r, Light Cloud, Dark Cloud}
 rothko_palette("Light Cloud, Dark Cloud")
 ```
 
 ### Number 14
-```{r, number14}
+```{r, Number 14}
 rothko_palette("Number 14")
 ```
 
 ### Orange, Red, Yellow
-```{r, ory}
+```{r, Orange, Red, Yellow}
 rothko_palette("Orange, Red, Yellow")
 ```
 
 ### Number 16
-```{r, number16}
+```{r, Number 16}
 rothko_palette("Number 16")
 ```
 
 ### Blue and Grey
-```{r, blueandgrey}
+```{r, Blue and Grey}
 rothko_palette("Blue and Grey")
 ```
 
 ### Untitled 1969
-```{r, untitled1969}
+```{r, Untitled 1969}
 rothko_palette("Untitled 1969")
 ```

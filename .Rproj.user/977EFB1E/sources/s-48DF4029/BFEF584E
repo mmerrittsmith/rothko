@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1583103058553.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "BFEF584E",
+    "lastKnownWriteTime" : 1583103077,
+    "last_content_update" : 1583103077531,
+    "path" : "~/rothko/R/colors.R",
+    "project_path" : "R/colors.R",
+    "properties" : {
+        "cursorPosition" : "57,42",
+        "scrollLine" : "53"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
