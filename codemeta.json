@@ -15,10 +15,10 @@
   "programmingLanguage": {
     "@type": "ComputerLanguage",
     "name": "R",
-    "version": "3.5.2",
+    "version": "4.0.4",
     "url": "https://r-project.org"
   },
-  "runtimePlatform": "R version 3.5.2 (2018-12-20)",
+  "runtimePlatform": "R version 4.0.4 (2021-02-15)",
   "provider": {
     "@id": "https://cran.r-project.org",
     "@type": "Organization",
@@ -59,7 +59,7 @@
       "@type": "SoftwareApplication",
       "identifier": "R",
       "name": "R",
-      "version": "3.0"
+      "version": "4.0"
     }
   ],
   "contIntegration": "https://travis-ci.org/mmerrittsmith/rothko",
